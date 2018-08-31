@@ -30,7 +30,7 @@ nav {
 
 header img {
   height: 50px;
-  margin-left: 10px;
+  margin: 10px 0px 0px 10px;
 }
 
 .links {
@@ -46,6 +46,11 @@ nav span {
 a {
   color: seashell;
   text-decoration: underline;
+}
+
+h2 {
+  margin: 0px;
+  padding: 10px;
 }
 
 .main {
@@ -73,11 +78,11 @@ a {
   width: 1200px;
 }
 
-h2 {
+/* .mission-text h2 {
   text-align: center;
   padding: 10px;
   margin: 0px;
-}
+} */
 .mission-text h4 {
   padding: 10px;
   margin: 0px;
@@ -90,22 +95,90 @@ h2 {
   margin: auto;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
-}
-
- #first-row {
-   justify-content: space-around;
- }
-
- #second-row {
+  flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 70px;
 }
 
 .tea-of-the-month img {
   height: 200px;
   width: 300px;
+  margin: 10px;
 }
 
 .steeping {
   width:300px;
+  padding: 5px;
+  margin: 0px 10px;
+}
+
+.steeping img {
+  margin: 10px;
+}
+
+.steeping h4 {
+  margin: 0px;
+  padding: 5px;
+}
+
+.text {
+  padding-top: 70px;
+}
+
+/* .text h2 {
+margin: 0px;
+padding: 10px;
+} */
+
+.text h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+
+/* Location part */
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("/Users/timursivakov/Документы/projects/teacozy/sources/images/img-locations-background.jpg");
+  margin: 0px auto;
+  padding-top: 70px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.address {
+  background-color: black;
+  width: 300px;
+  height: 280px;
+  margin: 5px 20px;
+  padding: 10px;
+  opacity: 1;
+}
+
+.locations h2 {
+  text-align: center;
+}
+
+.address h3 {
+  padding: 10px;
+  margin: 0px;
+}
+
+.address p {
+  margin: 44px 0px;
+}
+
+.footer {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 15px;
 }
