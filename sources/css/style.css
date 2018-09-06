@@ -49,7 +49,8 @@ a {
 }
 
 h2 {
-  margin: 0px;
+  /* margin: 0px; */
+  margin: 0 44px;
   padding: 10px;
 }
 
@@ -63,7 +64,7 @@ h2 {
 
 .mission {
   height: 700px;
-  background-image: url("/Users/timursivakov/Документы/projects/teacozy/sources/images/img-mission-background.jpg");
+  background-image: url("./sources/images/img-mission-background.jpg");
   width: 1200px;
   margin: 0px auto;
   display: flex;
