@@ -64,7 +64,7 @@ h2 {
 
 .mission {
   height: 700px;
-  background-image: url("/sources/images/img-mission-background.jpg");
+  background-image: url("../images/img-mission-background.jpg");
   width: 1200px;
   margin: 0px auto;
   display: flex;
@@ -142,7 +142,7 @@ padding: 10px;
 .locations {
   height: 500px;
   width: 1200px;
-  background-image: url("/sources/images/img-locations-background.jpg");
+  background-image: url('../images/img-locations-background.jpg');
   margin: 0px auto;
   padding-top: 70px;
 }
